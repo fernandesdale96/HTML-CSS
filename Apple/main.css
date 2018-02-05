@@ -1,0 +1,181 @@
+/* .navbar .navbar-header,
+.navbar-collapse{
+    float:none;
+    display:inline-block;
+    vertical-align: top;
+}
+ */
+
+.nav.navbar-nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+@media (min-width: 768px) {
+    .navbar-nav {
+        float: none;
+    }
+}
+
+#iPhoneX{
+	background-color: #FAFAFA;
+	display: flex;
+	display: -webkit-flex;
+  	flex-wrap: wrap;
+  	padding-top: 5%;
+  	padding-bottom: 8%;
+}
+#iPhoneXImage{
+	padding-top: 4%;
+}
+#iPhone8{
+	padding-top: 1%;
+	margin-top: 0.5%;
+	background-color: #F9F0EB;
+	display: flex;
+	display: -webkit-flex;
+  	flex-wrap: wrap;
+}
+#watch_tv{
+	display: flex;
+	display: -webkit-flex;
+  	flex-wrap: wrap;
+}
+#pad_mac{
+	display: flex;
+	display: -webkit-flex;
+  	flex-wrap: wrap;
+}
+#acc_mes{
+	display: flex;
+	display: -webkit-flex;
+  	flex-wrap: wrap;
+}
+
+
+#iWatch{
+	width: 49%;
+	margin: 0.5%;
+	background-color: #FAFAFA;
+	padding-top: 4%;
+}
+
+#iTV{
+	width: 49%;
+	margin: 0.5%;
+	background-color: #000000;
+	padding-top: 4%;
+	color: white;
+}
+
+#iPad{
+	width: 49%;
+	margin: 0.5%;
+	background-color: #FAFAFA;
+	padding-top: 2%;
+}
+
+#iPadImage{
+	padding-top: 10%;
+}
+
+#acc{
+	width: 49%;
+	margin: 0.5%;
+	background-color: #FAFAFA;
+	padding-top: 3%;
+}
+
+#message{
+	width: 49%;
+	margin: 0.5%;
+	background-color: #FAFAFA;
+	padding-top: 3%;
+}
+
+#bottom_bar{
+	background-color: #F2F2F2;
+	font-size: 11px;
+	text-align: left;
+}
+
+#bottom_bar li{
+	list-style-type: none;
+}
+#bottom_bar a{
+	color: #555;
+}
+#bottom_bar ul{
+	list-style-type: none;
+	padding:0;
+
+}
+
+#bottom_bar h3{
+	font-size: 11px;
+	font-weight: bold;
+	color: #333333;
+}
+
+
+#iMac{
+	width: 49%;
+	margin: 0.5%;
+	background-color: #1A1A1A;
+	color: white;
+	padding-top: 2%;
+}
+
+.container{
+	width: 100%
+}
+
+#iPhoneXImage{
+	height: 100%
+	width:100%;
+}
+#iPhone8Image{
+	height: 100%
+	width:100%;
+}
+
+#content{
+	padding-top: 2%;
+	width: 100%;
+	text-align: center;
+}
+#accImage{
+	padding-top: 6%;
+}
+#messageImage{
+	padding-top: 12%;
+}
+#message_text{
+	margin-right: 20%;
+	margin-left: 20%;
+}
+#copyright{
+	background-color: #F2F2F2;
+	text-align: left;
+}
+#copyright li{
+	list-style-type: none;
+	display: inline;
+	font-size: 1em;
+	text-align: left;
+}
+
+#copyright ul{
+	font-size: 1em;
+	text-align: left;
+	padding:0;
+}
+
+
+#copyright h4{
+	font-size: 1em;
+	text-align: left;
+}
+#copyright hr{
+	border-color: #D6D6D6;
+}

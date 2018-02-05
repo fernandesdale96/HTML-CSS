@@ -1,0 +1,458 @@
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Github</title>
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/genericons/3.1/genericons.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="main.css">
+	</head>
+	<body>
+		<div class="container container_nav">
+			<nav class="navbar navbar-toggleable-md navbar-inverse navbar-fixed-top" id="header">
+				<div class="container-fluid text-center">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="#"><svg aria-hidden="true" class="octicon octicon-mark-github" height="32" version="1.1" viewBox="0 0 16 16" width="32"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg></a>
+					</div>
+					<div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">
+
+						<ul class="nav navbar-nav">
+							<li><form class="form-inline my-2 my-lg-0" id="search_nav">
+								<input class="form-control mr-sm-2" type="text" placeholder="Search">
+							</form></li>
+							<li><a href="#">Pull Requests</a></li>
+							<li><a href="#">Issues</a></li>
+							<li><a href="#">Marketplace</a></li>
+							<li><a href="#">Explore</a></li>
+						</ul>
+						<ul class="nav navbar-nav navbar-right">
+							<li class="dropdown">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									<i class="fa fa-bell" aria-hidden="true"></i>
+								</a>
+								<ul class="dropdown-menu">
+									<li class="dropdown-header">No new notification</li>
+								</ul>
+							</li>
+							<li class="dropdown">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									<i class="fa fa-plus" aria-hidden="true"></i> <i class="fa fa-caret-down" aria-hidden="true"></i>
+								</a>
+								<ul class="dropdown-menu">
+									<li><a href="#">New repository</a></li>
+									<li><a href="#">Import repository</a></li>
+									<li><a href="#">New gist</a></li>
+									<li><a href="#">New organization</a></li>
+								</ul>
+							</li>
+							<li class="dropdown account_drp">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									<img src="E:/Udemy/web dev/Github/img/acc.png" width="40%" class="account"> <i class="fa fa-caret-down"></i>
+								</a>
+								<ul class="dropdown-menu">
+									<li class="dropdown-header">Logged in as Dayle Fernandes</li>
+									<li role="separator" class="divider"></li>
+									<li><a href="#">Your Profile</a></li>
+									<li><a href="#">Your Stars</a></li>
+									<li><a href="#">Your Gists</a></li>
+									<li role="separator" class="divider"></li>
+									<li><a href="#">Help</a></li>
+									<li><a href="#">Settings</a></li>
+									<li><a href="#">Sign Out</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 activities">
+					<div class="nav_activity">
+						<ul class="nav nav-tabs">
+							<li class="active"><a href="#">Browse Activity</a></li>
+							<li><a href="#">Discover repositories</a></li>
+						</ul>
+					</div>
+					<div class="activity">
+						<div class="activity_body">
+							<div class="inner_body">
+								<a href="#"><img src="E:/Udemy/web dev/Github/img/acc.png" class="activity_av" width="32"></a>
+								<div class="activity_info">
+									<div class="outside_info">
+										<a href="#">Someone</a> <p>starred</p> <a href="#">your/repository</a>
+										<span class="date_info">a day ago</span>
+									</div>
+								</div>
+							</div>
+							<div class="activity_bord">
+								<div class="rounded">
+									<h3>your/repository</h3>
+									<h4>Some generic information about your repository</h4>
+									<div class="line_info">
+										<p class="code_info">
+											<span>
+												<div class="repo-language-color"></div>
+												<span itemprop="programmingLanguage">Java</span>
+											</span>
+											<span class="star_cont">
+												<div>
+													<svg aria-hidden="true" class="star" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"></path></svg> 
+												</div>
+												<a href="#" class="star_link">300</a> 
+											</span>
+											<span>
+												Updated Jan 12
+											</span>
+										</p>
+									</div>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="activity">
+						<div class="activity_body">
+							<div class="inner_body">
+								<a href="#"><img src="E:/Udemy/web dev/Github/img/acc.png" class="activity_av" width="32"></a>
+								<div class="activity_info">
+									<div class="outside_info">
+										<a href="#">Someone</a> <p>starred</p> <a href="#">your/repository</a>
+										<span class="date_info">a day ago</span>
+									</div>
+								</div>
+							</div>
+							<div class="activity_bord">
+								<div class="rounded">
+									<h3>your/repository</h3>
+									<h4>Some generic information about your repository</h4>
+									<div class="line_info">
+										<p class="code_info">
+											<span>
+												<div class="repo-language-color"></div>
+												<span itemprop="programmingLanguage">Java</span>
+											</span>
+											<span class="star_cont">
+												<div>
+													<svg aria-hidden="true" class="star" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"></path></svg> 
+												</div>
+												<a href="#" class="star_link">300</a> 
+											</span>
+											<span>
+												Updated Jan 12
+											</span>
+										</p>
+									</div>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="activity">
+						<div class="activity_body">
+							<div class="inner_body">
+								<a href="#"><img src="E:/Udemy/web dev/Github/img/acc.png" class="activity_av" width="32"></a>
+								<div class="activity_info">
+									<div class="outside_info">
+										<a href="#">Someone</a> <p>starred</p> <a href="#">your/repository</a>
+										<span class="date_info">a day ago</span>
+									</div>
+								</div>
+							</div>
+							<div class="activity_bord">
+								<div class="rounded">
+									<h3>your/repository</h3>
+									<h4>Some generic information about your repository</h4>
+									<div class="line_info">
+										<p class="code_info">
+											<span>
+												<div class="repo-language-color"></div>
+												<span itemprop="programmingLanguage">Java</span>
+											</span>
+											<span class="star_cont">
+												<div>
+													<svg aria-hidden="true" class="star" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"></path></svg> 
+												</div>
+												<a href="#" class="star_link">300</a> 
+											</span>
+											<span>
+												Updated Jan 12
+											</span>
+										</p>
+									</div>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="activity">
+						<div class="activity_body">
+							<div class="inner_body">
+								<a href="#"><img src="E:/Udemy/web dev/Github/img/acc.png" class="activity_av" width="32"></a>
+								<div class="activity_info">
+									<div class="outside_info">
+										<a href="#">Someone</a> <p>starred</p> <a href="#">your/repository</a>
+										<span class="date_info">a day ago</span>
+									</div>
+								</div>
+							</div>
+							<div class="activity_bord">
+								<div class="rounded">
+									<h3>your/repository</h3>
+									<h4>Some generic information about your repository</h4>
+									<div class="line_info">
+										<p class="code_info">
+											<span>
+												<div class="repo-language-color"></div>
+												<span itemprop="programmingLanguage">Java</span>
+											</span>
+											<span class="star_cont">
+												<div>
+													<svg aria-hidden="true" class="star" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"></path></svg> 
+												</div>
+												<a href="#" class="star_link">300</a> 
+											</span>
+											<span>
+												Updated Jan 12
+											</span>
+										</p>
+									</div>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="activity">
+						<div class="activity_body">
+							<div class="inner_body">
+								<a href="#"><img src="E:/Udemy/web dev/Github/img/acc.png" class="activity_av" width="32"></a>
+								<div class="activity_info">
+									<div class="outside_info">
+										<a href="#">Someone</a> <p>starred</p> <a href="#">your/repository</a>
+										<span class="date_info">a day ago</span>
+									</div>
+								</div>
+							</div>
+							<div class="activity_bord">
+								<div class="rounded">
+									<h3>your/repository</h3>
+									<h4>Some generic information about your repository</h4>
+									<div class="line_info">
+										<p class="code_info">
+											<span>
+												<div class="repo-language-color"></div>
+												<span itemprop="programmingLanguage">Java</span>
+											</span>
+											<span class="star_cont">
+												<div>
+													<svg aria-hidden="true" class="star" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"></path></svg> 
+												</div>
+												<a href="#" class="star_link">300</a> 
+											</span>
+											<span>
+												Updated Jan 12
+											</span>
+										</p>
+									</div>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="activity">
+						<div class="activity_body">
+							<div class="inner_body">
+								<a href="#"><img src="E:/Udemy/web dev/Github/img/acc.png" class="activity_av" width="32"></a>
+								<div class="activity_info">
+									<div class="outside_info">
+										<a href="#">Someone</a> <p>starred</p> <a href="#">your/repository</a>
+										<span class="date_info">a day ago</span>
+									</div>
+								</div>
+							</div>
+							<div class="activity_bord">
+								<div class="rounded">
+									<h3>your/repository</h3>
+									<h4>Some generic information about your repository</h4>
+									<div class="line_info">
+										<p class="code_info">
+											<span>
+												<div class="repo-language-color"></div>
+												<span itemprop="programmingLanguage">Java</span>
+											</span>
+											<span class="star_cont">
+												<div>
+													<svg aria-hidden="true" class="star" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"></path></svg> 
+												</div>
+												<a href="#" class="star_link">300</a> 
+											</span>
+											<span>
+												Updated Jan 12
+											</span>
+										</p>
+									</div>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="activity">
+						<div class="activity_body">
+							<div class="inner_body">
+								<a href="#"><img src="E:/Udemy/web dev/Github/img/acc.png" class="activity_av" width="32"></a>
+								<div class="activity_info">
+									<div class="outside_info">
+										<a href="#">Someone</a> <p>starred</p> <a href="#">your/repository</a>
+										<span class="date_info">a day ago</span>
+									</div>
+								</div>
+							</div>
+							<div class="activity_bord">
+								<div class="rounded">
+									<h3>your/repository</h3>
+									<h4>Some generic information about your repository</h4>
+									<div class="line_info">
+										<p class="code_info">
+											<span>
+												<div class="repo-language-color"></div>
+												<span itemprop="programmingLanguage">Java</span>
+											</span>
+											<span class="star_cont">
+												<div>
+													<svg aria-hidden="true" class="star" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"></path></svg> 
+												</div>
+												<a href="#" class="star_link">300</a> 
+											</span>
+											<span>
+												Updated Jan 12
+											</span>
+										</p>
+									</div>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="activity">
+						<div class="activity_body">
+							<div class="inner_body">
+								<a href="#"><img src="E:/Udemy/web dev/Github/img/acc.png" class="activity_av" width="32"></a>
+								<div class="activity_info">
+									<div class="outside_info">
+										<a href="#">Someone</a> <p>starred</p> <a href="#">your/repository</a>
+										<span class="date_info">a day ago</span>
+									</div>
+								</div>
+							</div>
+							<div class="activity_bord">
+								<div class="rounded">
+									<h3>your/repository</h3>
+									<h4>Some generic information about your repository</h4>
+									<div class="line_info">
+										<p class="code_info">
+											<span>
+												<div class="repo-language-color"></div>
+												<span itemprop="programmingLanguage">Java</span>
+											</span>
+											<span class="star_cont">
+												<div>
+													<svg aria-hidden="true" class="star" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"></path></svg> 
+												</div>
+												<a href="#" class="star_link">300</a> 
+											</span>
+											<span>
+												Updated Jan 12
+											</span>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 announcement_cont">
+					<div class="announcement">
+						<div class="message">
+							<div>
+								<svg aria-hidden="true" class="radio-tower" height="32" version="1.1" viewBox="0 0 16 16" width="32"><path fill-rule="evenodd" d="M4.79 6.11c.25-.25.25-.67 0-.92-.32-.33-.48-.76-.48-1.19 0-.43.16-.86.48-1.19.25-.26.25-.67 0-.92a.613.613 0 0 0-.45-.19c-.16 0-.33.06-.45.19-.57.58-.85 1.35-.85 2.11 0 .76.29 1.53.85 2.11.25.25.66.25.9 0zM2.33.52a.651.651 0 0 0-.92 0C.48 1.48.01 2.74.01 3.99c0 1.26.47 2.52 1.4 3.48.25.26.66.26.91 0s.25-.68 0-.94c-.68-.7-1.02-1.62-1.02-2.54 0-.92.34-1.84 1.02-2.54a.66.66 0 0 0 .01-.93zm5.69 5.1A1.62 1.62 0 1 0 6.4 4c-.01.89.72 1.62 1.62 1.62zM14.59.53a.628.628 0 0 0-.91 0c-.25.26-.25.68 0 .94.68.7 1.02 1.62 1.02 2.54 0 .92-.34 1.83-1.02 2.54-.25.26-.25.68 0 .94a.651.651 0 0 0 .92 0c.93-.96 1.4-2.22 1.4-3.48A5.048 5.048 0 0 0 14.59.53zM8.02 6.92c-.41 0-.83-.1-1.2-.3l-3.15 8.37h1.49l.86-1h4l.84 1h1.49L9.21 6.62c-.38.2-.78.3-1.19.3zm-.01.48L9.02 11h-2l.99-3.6zm-1.99 5.59l1-1h2l1 1h-4zm5.19-11.1c-.25.25-.25.67 0 .92.32.33.48.76.48 1.19 0 .43-.16.86-.48 1.19-.25.26-.25.67 0 .92a.63.63 0 0 0 .9 0c.57-.58.85-1.35.85-2.11 0-.76-.28-1.53-.85-2.11a.634.634 0 0 0-.9 0z"></path></svg>
+							</div>
+							<h3>Game Off 2017 winners</h3>
+						</div>
+						
+					</div>
+					<div class="links">
+						<a href="#">View 14 new boradcasts</a>
+					</div>
+					<div id="repo">
+						<div id="inner_repo">
+							<div id="top_row">
+								<h4>Your Repositories</h4>
+								<a href="#" class="btn btn-sm btn-primary new_repo">New repository</a>
+							</div>
+							<div id="main_repo">
+								<div id="top_main_repo">
+									<input type="text" class="form-control input-sm " id="your-repos-filter" placeholder="Find a repository…" aria-label="Find a repository…">
+									<ul id="repo_filter">
+										<li><a class="btn-link repo-filter" href="#">All</a></li>
+										<li><a class="btn-link repo-filter" href="#">Public</a></li>
+										<li><a class="btn-link repo-filter" href="#">Private</a></li>
+										<li><a class="btn-link repo-filter" href="#">Sources</a></li>
+										<li><a class="btn-link repo-filter" href="#">Forks</a></li>
+									</ul>
+								</div>
+								<div id="repo_list">
+									<ul id="mini_repo_list">
+										<li class="public_repo"><a class="mini_repo_list_item" href="#"><svg aria-hidden="true" class="book_icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"></path></svg>Canvas-File-Downloader</a></li>
+										<li class="public_repo"><a class="mini_repo_list_item" href="#"><svg aria-hidden="true" class="book_icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"></path></svg>SEC-Filing-Downloader</a></li>
+										<li class="public_repo"><a class="mini_repo_list_item" href="#"><svg aria-hidden="true" class="book_icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"></path></svg>BuyIt</a></li>
+										<li class="public_repo"><a class="mini_repo_list_item" href="#"><svg aria-hidden="true" class="book_icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"></path></svg>FPL-Analysis</a></li>
+										<li class="public_repo"><a class="mini_repo_list_item" href="#"><svg aria-hidden="true" class="book_icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"></path></svg>CS3343</a></li>
+										<li class="public_repo lp"><a class="mini_repo_list_item" href="#"><svg aria-hidden="true" class="book_icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"></path></svg>HackerRank</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		<div class="container">
+			<div class="row footer">
+				<div class="col-lg-12 footer_row">
+					<ul>
+						<li>© 2018 Github</li>
+						<li>Terms</li>
+						<li>Privacy</li>
+						<li>Security</li>
+						<li>Status</li>
+						<li>Help</li>
+					</ul>
+					<a href="#">
+						<svg aria-hidden="true" class="logo" height="24" version="1.1" viewBox="0 0 16 16" width="24"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg>
+					</a>
+					<ul>
+						<li>Contact Github</li>
+						<li>API</li>
+						<li>Training</li>
+						<li>Shop</li>
+						<li>Blog</li>
+						<li>About</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</body>
+	</html>
